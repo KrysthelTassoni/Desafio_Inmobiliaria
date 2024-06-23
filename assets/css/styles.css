@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.a {
+   
+    margin-right: 10px ;
+}
+
+
+
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.main-alquiler {
+    background-image: url('../img/img-alquiler.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+.main-venta {
+    background-image: url('../img/img-venta.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+
+.card-prop {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card-prop img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-prop-details {
+    padding: 16px;
+}
+
+.card-prop .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-prop .description {
+    font-size: 1em;
+    margin-bottom: 8px;
+}
+
+.card-prop .location {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.card-prop .rooms {
+    font-size: 1em;
+    margin-bottom: 8px;
+}
+
+.card-prop .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 8px;
+}
+
+.card-prop .status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    font-size: 1em;
+}
+
+.card-prop .status img {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+.card-prop .status.allowed {
+    color: green;
+}
+
+.card-prop .status.not-allowed {
+    color: red;
+}
+
+.card-max-width {
+    max-width: 400px !important;
+}
